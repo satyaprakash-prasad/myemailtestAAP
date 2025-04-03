@@ -4,7 +4,7 @@
   community.general.mail:
     host: "{{ smtp_host }}"
     username: "{{ smtp_user }}"
-    password: "{{ smtp_pass }}"
+    password: "{{ vault_smtp_pass }}"
     to: "{{recipients_emails}}"
     subject: "Test Email"
     body: "This is a test email sent from Ansible."
