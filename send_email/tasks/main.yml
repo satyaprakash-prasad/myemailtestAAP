@@ -1,0 +1,11 @@
+---
+# tasks file for send_email
+- name: Send an email
+  community.general.mail:
+    host: "{{ smtp_host }}"
+    username: "{{ smtp_user }}"
+    password: "{{ smtp_pass }}"
+    to: "{{recipients_emails}}"
+    subject: "Test Email"
+    body: "This is a test email sent from Ansible."
+    secure: try

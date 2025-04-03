@@ -1,0 +1,6 @@
+---
+# vars file for send_email
+smtp_host: "smtp-auth-eu.sanofi.com"
+smtp_port: 25
+smtp_user: "{{ vault_smtp_user }}"
+smtp_pass: "{{ vault_smtp_pass }}"
