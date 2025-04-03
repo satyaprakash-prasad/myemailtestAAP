@@ -1,6 +1,6 @@
 ---
 - name: Test Email funtionality
-- hosts: localhost
+  hosts: localhost
   roles:
     - send_email
   # vars_files:
