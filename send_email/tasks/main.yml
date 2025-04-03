@@ -6,7 +6,7 @@
     username: "{{ smtp_user }}"
     password: "{{ vault_smtp_pass }}"
     to: "{{ recipients_emails }}"
-    from: "aap-dev-noreply@sanofi.com"
+    from: "rabbitmq@sanofi.com"
     subject: "Test Email"
     body: "This is a test email sent from Ansible."
     secure: try
