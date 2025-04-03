@@ -9,5 +9,5 @@
     subject: "Test Email"
     body: "This is a test email sent from Ansible."
     secure: try
-
   delegate_to: localhost
+  no_log: false
