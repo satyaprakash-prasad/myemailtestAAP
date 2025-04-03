@@ -3,4 +3,4 @@
 smtp_host: "smtp-auth-eu.sanofi.com"
 smtp_port: 25
 smtp_user: "PS129033"
-smtp_pass: "{{ vault_smtp_pass }}"
+# smtp_pass: "{{ vault_smtp_pass }}"

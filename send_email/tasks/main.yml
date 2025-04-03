@@ -4,7 +4,8 @@
   mail:
     host: "{{ smtp_host }}"
     username: "{{ smtp_user }}"
-    password: "{{ vault_smtp_pass }}"
+    # password: "{{ vault_smtp_pass }}"
+    password: "{{ smtp_pass }}"
     to: "{{ recipients_emails }}"
     from: "kafka@sanofi.com"
     subject: "Test Email"

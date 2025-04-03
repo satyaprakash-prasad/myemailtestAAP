@@ -3,5 +3,5 @@
   hosts: localhost
   roles:
     - send_email
-  vars_files:
-    - vault/smtp_credentials.yml
+  # vars_files:
+  #   - vault/smtp_credentials.yml
