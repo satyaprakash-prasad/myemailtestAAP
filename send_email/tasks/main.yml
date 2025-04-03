@@ -5,9 +5,7 @@
     host: "{{ smtp_host }}"
     username: "{{ smtp_user }}"
     password: "{{ vault_smtp_pass }}"
-    to: "{{recipients_emails}}"
+    to: "{{ recipients_emails }}"
     subject: "Test Email"
     body: "This is a test email sent from Ansible."
     secure: try
-  delegate_to: localhost
-  no_log: false
